@@ -1,0 +1,60 @@
+/*Reset*/
+
+table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body
+{
+	line-height: 1;
+	background:rgba(185,211,238,0.5);
+}
+
+div#wrap
+{
+	width:900px;
+	margin: 0 auto;
+	background:#FFFFFF;
+}
+
+
+div#contentLHS
+{
+	float:left;
+	margin: -40px 20px 0 20px;
+}
+
+div#googleMap
+{
+	float:center;
+	margin: 0px 0px 0px 120px;
+}
+
+p#text
+{
+	font-family:PTSansRegular, Arial;
+	font-size:11pt;
+	margin: 0px 0 0 0;
+	color:#555454;
+	line-height:22px;
+}
+
+div#footer
+{
+	margin: 150px 50px 0 0;
+	padding: 0 0 20px 50px;
+}
+
+p#footer_text, a#footer_url
+{
+	font-family:PTSansRegular, Arial;
+	font-size:9px;
+	text-align:right;
+	color:#acacac;
+}
